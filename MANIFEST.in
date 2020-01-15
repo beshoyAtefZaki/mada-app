@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mada_app *.css
+recursive-include mada_app *.csv
+recursive-include mada_app *.html
+recursive-include mada_app *.ico
+recursive-include mada_app *.js
+recursive-include mada_app *.json
+recursive-include mada_app *.md
+recursive-include mada_app *.png
+recursive-include mada_app *.py
+recursive-include mada_app *.svg
+recursive-include mada_app *.txt
+recursive-exclude mada_app *.pyc
